@@ -1,8 +1,10 @@
-#MSP Moscow Upskill. Xamarin
+MSP Moscow Upskill. Xamarin
+=
 
 Xamarin is a tool for creating an apps for **Android and iOS**. Moreover, it provides ability to create a **cross-platform** mobile application with shared logic. Today we'll try to get deeper into this technology and gain some experience in cross-platform development. 
 
-##Objectives
+Objectives
+==
 In this lab, you will learn, how to:
 
 * Understand the differences between Xamarin Classic and Xamarin.Forms 
@@ -10,15 +12,16 @@ In this lab, you will learn, how to:
 * Add a mobile backend with SQL database
 * Use Visual Studio App Center for crash reports
 
-##Prerequisites 
+Prerequisites 
+==
 The folowing is required to finish this lab:
 
 * [Visual Studio Community] (https://visualstudio.microsoft.com/downloads/?rr=https%3A%2F%2Fwww.google.com%2F) or higher with [Xamarin installed] (https://docs.microsoft.com/en-us/xamarin/get-started/installation/windows)
 * At least [Android Emulator](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/) should be installed
 * Active Azure subscription. If you don't have it [see all options here (Rus)] (https://habr.com/ru/company/microsoft/blog/352786/)
 
-##Overview
-
+Overview
+==
 * Exercise 1: Create Android app
 * Exercise 2: Create Xamarin.Forms app
 * Exercise 3: XAML vs Code
@@ -28,7 +31,9 @@ The folowing is required to finish this lab:
 Estimated time to finish this lab: 60 minutes
 
 Disclaimer: All screenshots below are made in Visual Studio 2019 for Mac. However, there're similar in different IDE versions or operating systems. If you have any questions, please **do not** hesitate to shoot me an email: *ilia.ryabukhin@studentpartner.com*
-##Exercise 1: Create Android app
+
+Exercise 1: Create Android app
+==
 * Open new instance of Visual Studio
 ![](/Users/ilia_2108/Desktop/XamarinLabs/ex1/1.png)
 * Create new Adroid app (follow screenshots below)
@@ -52,7 +57,8 @@ Disclaimer: All screenshots below are made in Visual Studio 2019 for Mac. Howeve
 * Explore the result
 ![](/Users/ilia_2108/Desktop/XamarinLabs/ex1/7.png)
 
-##Exercise 2: Create Xamarin.Forms app
+Exercise 2: Create Xamarin.Forms app
+==
 * Create a Xamarin.Forms project (follow screenshots below)
 ![](/Users/ilia_2108/Desktop/XamarinLabs/ex2/1.png)
 ![](/Users/ilia_2108/Desktop/XamarinLabs/ex2/2.png)
@@ -67,7 +73,8 @@ This solution contains several differences from Classic approach:
 * Optional: set iOS/Win10 app as a Startup project and deploy it. Compare design with Android
 
 
-##Exercise 3: XAML vs Code
+Exercise 3: XAML vs Code
+==
 * Let's get more into XAML. Here's info about [basic XAML controls](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/xaml-controls). Your goal is to create a page for collecting a survey about this Upskill Seminar. You're free to place controls wherever you want.
 * Now let's change some things in the code. All controls can be implemented from code as well. 
   Let's assume you have this code:
@@ -76,7 +83,8 @@ This solution contains several differences from Classic approach:
   ```var label = Label(){ Text="Welcome to Xamarin.Forms!", HorizontalOptions=LayoutOptions.Center, VerticalOptions=LayoutOptions.CenterAndExpand };```
   Try to rewrite your page in C# code. Here's info about [Xamarin controls in C#](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/)
 
-##Exercise 4: Making a mobile backend
+Exercise 4: Making a mobile backend
+==
 * Open [Azure portal](http://portal.azure.com/)
 * Create Azure Mobile App
 ![](/Users/ilia_2108/Desktop/XamarinLabs/ex4/1.png)
@@ -91,12 +99,14 @@ This solution contains several differences from Classic approach:
 ![](/Users/ilia_2108/Desktop/XamarinLabs/ex4/7.png)
 * Make an insertion request from the client
 
-##Exercise 5: Using Visual Studio App Center
+Exercise 5: Using Visual Studio App Center
+==
 * Open [Visual Studio App Center](https://appcenter.ms/) and create new app
 ![](/Users/ilia_2108/Desktop/XamarinLabs/ex5/1.png)
 * Follow the instructions similar to the screenshot:
 ![](/Users/ilia_2108/Desktop/XamarinLabs/ex5/2.png)
 
-##Summary 
+Summary 
+==
 This lab is about basic conpepts of Xamarin and life cycle near it. I would like tp hear your feedback and error reports via email: *ilia.ryabukhin@studenpartner.com*
 
