@@ -35,14 +35,14 @@ Disclaimer: All screenshots below are made in Visual Studio 2019 for Mac. Howeve
 Exercise 1: Create Android app
 ==
 * Open new instance of Visual Studio
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex1/1.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/1.png)
 * Create new Adroid app (follow screenshots below)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex1/2.png)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex1/3.png)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex1/4.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/2.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/3.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/4.png)
 * Explore solution
 
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex1/5.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/5.png)
 
   Solution consists of several directories: References, Packages, Assets, Properties, Resources and MainActivity.cs
 
@@ -53,23 +53,23 @@ Exercise 1: Create Android app
   * **Resources**: All visible assets of app. Such that design files (axml), resouces (e.g. images)
   * **MainActivity.cs**: Starting point of application. Handles all basic methods of application (like OnCreate)
 * Deploy application
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex1/6.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/6.png)
 * Explore the result
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex1/7.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/7.png)
 
 Exercise 2: Create Xamarin.Forms app
 ==
 * Create a Xamarin.Forms project (follow screenshots below)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex2/1.png)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex2/2.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/1.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/2.png)
 * Explore solution
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex2/3.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/3.png)
 This solution contains several differences from Classic approach:
   1. It has more than one project in solution. It contains project for each OS (there's also UWP project on Windows)
   2. It has extra project that is called from platform-specified projects.
 * Set Android app as a Startup project and deploy app. The result sould be the following
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex2/4.png)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex2/5.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/4.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/5.png)
 * Optional: set iOS/Win10 app as a Startup project and deploy it. Compare design with Android
 
 
@@ -87,24 +87,24 @@ Exercise 4: Making a mobile backend
 ==
 * Open [Azure portal](http://portal.azure.com/)
 * Create Azure Mobile App
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex4/1.png)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex4/2.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex4/1.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex4/2.png)
 * Configure SQL Connection String
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex4/3.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex4/3.png)
 * Create backend based on either C# or Node.js (I'll proceed with Node.js)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex4/4.png)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex4/5.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex4/4.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex4/5.png)
 * Change DB schema to the corresponding to the task (e.g. change several fields)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex4/6.png)
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex4/7.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex4/6.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex4/7.png)
 * Make an insertion request from the client
 
 Exercise 5: Using Visual Studio App Center
 ==
 * Open [Visual Studio App Center](https://appcenter.ms/) and create new app
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex5/1.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex5/1.png)
 * Follow the instructions similar to the screenshot:
-![](/Users/ilia_2108/Desktop/XamarinLabs/ex5/2.png)
+![](https://github.com/ilia2108/XamarinLab/blob/master/ex5/2.png)
 
 Summary 
 ==
