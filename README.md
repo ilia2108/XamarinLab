@@ -16,7 +16,7 @@ Prerequisites
 ==
 The folowing is required to finish this lab:
 
-* [Visual Studio Community] (https://visualstudio.microsoft.com) or higher with [Xamarin installed] (https://docs.microsoft.com/en-us/xamarin/get-started/installation/windows)
+* [Visual Studio Community](https://visualstudio.microsoft.com) or higher with [Xamarin installed](https://docs.microsoft.com/en-us/xamarin/get-started/installation/windows)
 * At least [Android Emulator](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/) should be installed
 * Active Azure subscription. If you don't have it [see all options here (Rus)] (https://habr.com/ru/company/microsoft/blog/352786/)
 
@@ -41,7 +41,9 @@ Exercise 1: Create Android app
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/3.png)
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/4.png)
 * Explore solution
+
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/5.png)
+  
   Solution consists of several directories: References, Packages, Assets, Properties, Resources and MainActivity.cs
 
   * **References**: System libraries, usually shouldn't be modified
@@ -53,6 +55,7 @@ Exercise 1: Create Android app
 * Deploy application
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/6.png)
 * Explore the result
+
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex1/7.png)
 
 Exercise 2: Create Xamarin.Forms app
@@ -60,8 +63,11 @@ Exercise 2: Create Xamarin.Forms app
 * Create a Xamarin.Forms project (follow screenshots below)
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/1.png)
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/2.png)
+
 * Explore solution
+
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/3.png)
+
 This solution contains several differences from Classic approach:
   1. It has more than one project in solution. It contains project for each OS (there's also UWP project on Windows)
   2. It has extra project that is called from platform-specified projects.
@@ -77,6 +83,7 @@ Exercise 3: XAML vs Code
 * Now let's change some things in the code. All controls can be implemented from code as well. 
   Let's assume you have this code:
   ```<Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />```
+  
   This could be represented in C#:
   ```var label = Label(){ Text="Welcome to Xamarin.Forms!", HorizontalOptions=LayoutOptions.Center, VerticalOptions=LayoutOptions.CenterAndExpand };```
   Try to rewrite your page in C# code. Here's info about [Xamarin controls in C#](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/)
