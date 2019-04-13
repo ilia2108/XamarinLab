@@ -18,7 +18,7 @@ The folowing is required to finish this lab:
 
 * [Visual Studio Community](https://visualstudio.microsoft.com) or higher with [Xamarin installed](https://docs.microsoft.com/en-us/xamarin/get-started/installation/windows)
 * At least [Android Emulator](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/) should be installed
-* Active Azure subscription. If you don't have it [see all options here (Rus)] (https://habr.com/ru/company/microsoft/blog/352786/)
+* Active Azure subscription. If you don't have it [see all options here (Rus)](https://habr.com/ru/company/microsoft/blog/352786/)
 
 Overview
 ==
