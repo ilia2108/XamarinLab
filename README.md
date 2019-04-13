@@ -69,8 +69,8 @@ Exercise 2: Create Xamarin.Forms app
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/3.png)
 
 This solution contains several differences from Classic approach:
-  1. It has more than one project in solution. It contains project for each OS (there's also UWP project on Windows)
-  2. It has extra project that is called from platform-specified projects.
+  1. It has **more than one project** in solution. It contains project for each OS (there's also UWP project on Windows)
+  2. It has extra project that is **called from platform-specified projects**.
 * Set Android app as a Startup project and deploy app. The result sould be the following
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/4.png)
 ![](https://github.com/ilia2108/XamarinLab/blob/master/ex2/5.png)
@@ -79,14 +79,14 @@ This solution contains several differences from Classic approach:
 
 Exercise 3: XAML vs Code
 ==
-* Let's get more into XAML. Here's info about [basic XAML controls](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/xaml-controls). Your goal is to create a page for collecting a survey about this Upskill Seminar. You're free to place controls wherever you want.
-* Now let's change some things in the code. All controls can be implemented from code as well. 
+* Let's get more into XAML. Here's info about [basic XAML controls](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/xaml-controls). Your goal is to **create a page for collecting a survey** about this Upskill Seminar. You're free to place controls wherever you want.
+* Now let's change some things in the code. All controls **can be implemented from code** as well. 
   Let's assume you have this code:
   ```<Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />```
   
   This could be represented in C#:
   ```var label = Label(){ Text="Welcome to Xamarin.Forms!", HorizontalOptions=LayoutOptions.Center, VerticalOptions=LayoutOptions.CenterAndExpand };```
-  Try to rewrite your page in C# code. Here's info about [Xamarin controls in C#](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/)
+  **Try to rewrite** your page in C# code. Here's info about [Xamarin controls in C#](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/)
 
 Exercise 4: Making a mobile backend
 ==
@@ -113,5 +113,5 @@ Exercise 5: Using Visual Studio App Center
 
 Summary 
 ==
-This lab is about basic conpepts of Xamarin and life cycle near it. I would like tp hear your feedback and error reports via email: *ilia.ryabukhin@studenpartner.com*
+This lab is about **basic conpepts of Xamarin** and life cycle near it. I would like to hear your feedback and error reports via email: *ilia.ryabukhin@studenpartner.com*
 
